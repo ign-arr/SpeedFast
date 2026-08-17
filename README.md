@@ -2,7 +2,7 @@
 
 ## Descripción
 
-El proyecto representa un sistema básico de pedidos para SpeedFast, utilizando **herencia, polimorfismo, sobrecarga y sobreescritura**.
+El proyecto representa un sistema básico de pedidos para SpeedFast.
 
 ## Clases
 
