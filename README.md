@@ -27,20 +27,16 @@ src
             └── PedidoExpress.java
 ```
 
-## Tecnologías
-
-* Java
-* Maven
-* IntelliJ IDEA
-
 ## Ejecución
 
 1. Abrir el proyecto en IntelliJ IDEA.
-2. Esperar la carga de Maven.
+2. Esperar la carga del proyecto.
 3. Ejecutar `Main.java`.
 
 ## Autor
 
 Ignacio Nicolás Arriagada Guzmán
+
 Estudiante Analista Programador Computacional
+
 Duoc UC
