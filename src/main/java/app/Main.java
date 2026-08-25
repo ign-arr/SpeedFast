@@ -1,46 +1,17 @@
 
 package app;
 
-import model.PedidoComida;
-import model.PedidoEncomienda;
-import model.PedidoExpress;
+import model.*;
 
 public class Main {
-
     public static void main(String[] args) {
 
-        PedidoComida comida = new PedidoComida(
-                1,
-                "Pasaje 1 154",
-                "Comida"
-        );
+        PedidoComida p1 = new PedidoComida("001", "Pasaje 1 154", 4);
+        PedidoEncomienda p2 = new PedidoEncomienda("002", "Los Pinos 32", 6);
+        PedidoExpress p3 = new PedidoExpress("003", "Porvenir 302", 7);
 
-        PedidoEncomienda encomienda = new PedidoEncomienda(
-                2,
-                "Los Pinos 32",
-                "Encomienda"
-        );
-
-        PedidoExpress express = new PedidoExpress(
-                3,
-                "Porvenir 302",
-                "Compra Express"
-        );
-
-        System.out.println("[Pedido Comida]");
-        comida.asignarRepartidor();
-        comida.asignarRepartidor("Claudio Baeza");
-
-        System.out.println();
-
-        System.out.println("[Pedido Encomienda]");
-        encomienda.asignarRepartidor();
-        encomienda.asignarRepartidor("Carmen Sanhueza");
-
-        System.out.println();
-
-        System.out.println("[Pedido Express]");
-        express.asignarRepartidor();
-        express.asignarRepartidor("Roberto Guzmán");
+        p1.asignarRepartidor("Claudio Baeza");
+        p2.asignarRepartidor("Carmen Sanhueza");
+        p3.asignarRepartidor("Roberto Guzmán");
     }
 }

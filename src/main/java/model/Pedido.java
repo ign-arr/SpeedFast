@@ -1,61 +1,33 @@
 
 package model;
 
-// Clase base
-public class Pedido {
+public abstract class Pedido {
+    String idPedido;
+    String direccionEntrega;
+    int distanciaKm;
 
-    private int idPedido;
-    private String direccionEntrega;
-    private String tipoPedido;
-
-    public Pedido(int idPedido, String direccionEntrega, String tipoPedido) {
+    public Pedido(String idPedido, String direccionEntrega, int distanciaKm) {
         this.idPedido = idPedido;
         this.direccionEntrega = direccionEntrega;
-        this.tipoPedido = tipoPedido;
+        this.distanciaKm = distanciaKm;
     }
 
-    public int getIdPedido() {
-        return idPedido;
-    }
+    public abstract int calcularTiempoEntrega();
 
-    public void setIdPedido(int idPedido) {
-        this.idPedido = idPedido;
-    }
-
-    public String getDireccionEntrega() {
-        return direccionEntrega;
-    }
-
-    public void setDireccionEntrega(String direccionEntrega) {
-        this.direccionEntrega = direccionEntrega;
-    }
-
-    public String getTipoPedido() {
-        return tipoPedido;
-    }
-
-    public void setTipoPedido(String tipoPedido) {
-        this.tipoPedido = tipoPedido;
-    }
-
-    // Metodo sobrescribible
     public void asignarRepartidor() {
-        System.out.println("Asignando repartidor para el pedido.");
+        System.out.println("Asignando repartidor...");
     }
 
-    // Metodo sobrecargado
-    public void asignarRepartidor(String nombreRepartidor) {
-        System.out.println(
-                "Repartidor asignado: " + nombreRepartidor
-        );
+    public void mostrarResumen() {
+        System.out.println("-> Dirección: " + direccionEntrega);
+        System.out.println("-> Distancia: " + distanciaKm + " km");
+        System.out.println("-> Tiempo estimado de entrega: " + calcularTiempoEntrega() + " minutos");
     }
 
-    @Override
-    public String toString() {
-        return "Pedido{" +
-                "idPedido=" + idPedido +
-                ", direccionEntrega='" + direccionEntrega + '\'' +
-                ", tipoPedido='" + tipoPedido + '\'' +
-                '}';
-    }
+    public String getIdPedido() { return idPedido; }
+    public void setIdPedido(String id) { this.idPedido = id; }
+    public String getDireccionEntrega() { return direccionEntrega; }
+    public void setDireccionEntrega(String dir) { this.direccionEntrega = dir; }
+    public int getDistanciaKm() { return distanciaKm; }
+    public void setDistanciaKm(int dist) { this.distanciaKm = dist; }
 }
