@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d7f1ab07-bc21-4318-bb1f-07dc1155f8da" name="Changes" comment="Semana 2 (Retoques)">
+      <change afterPath="$PROJECT_DIR$/Semana3/src/main/java/app/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Semana3/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Semana3/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Semana3/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Semana3/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/Semana3/src/main/java/model/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/PedidoComida.java" beforeDir="false" afterPath="$PROJECT_DIR$/Semana3/src/main/java/model/PedidoComida.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/PedidoEncomienda.java" beforeDir="false" afterPath="$PROJECT_DIR$/Semana3/src/main/java/model/PedidoEncomienda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/PedidoExpress.java" beforeDir="false" afterPath="$PROJECT_DIR$/Semana3/src/main/java/model/PedidoExpress.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="15" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ign-arr&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ign-arr/SpeedFast.git&quot;,
+    &quot;accountId&quot;: &quot;59270f2c-3fbc-4b97-ab3c-b9b384df5395&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.0000000336543133" />
+      <entry key="S60" value="1.0001834512858863" />
+      <entry key="M2" value="1.0135736761986103" />
+      <entry key="M5" value="1.2222728400484226" />
+      <entry key="M10" value="2.0177008554331604" />
+      <entry key="M15" value="3.4678617667470397" />
+      <entry key="M30" value="10.863099965738273" />
+      <entry key="H1" value="25.018466368379485" />
+      <entry key="H2" value="39.85938410964837" />
+      <entry key="H4" value="50.77239907733367" />
+      <entry key="D1" value="62.35820432273961" />
+      <entry key="W1" value="64.61537499226543" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.6973718331752027" />
+      <entry key="MS500" value="0.9304496577030154" />
+      <entry key="S2" value="0.9821395952633915" />
+      <entry key="S5" value="0.9928171898989521" />
+      <entry key="S10" value="0.9964021225885421" />
+      <entry key="S30" value="0.9987992998459657" />
+      <entry key="S60" value="0.9995824849861074" />
+      <entry key="M2" value="1.0132578701332249" />
+      <entry key="M5" value="1.2220657149252352" />
+      <entry key="M10" value="2.0174898942094646" />
+      <entry key="M15" value="3.467576746116391" />
+      <entry key="M30" value="10.862518970105821" />
+      <entry key="H1" value="25.017729116437504" />
+      <entry key="H2" value="39.85877728508476" />
+      <entry key="H4" value="50.77200760900947" />
+      <entry key="D1" value="62.358123458838904" />
+      <entry key="W1" value="64.61536300511844" />
+    </decayedShown>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3I3a7mBKe1k8rTs0b74P4NjBSRA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ddd\IdeaProjects\SpeedFast\Semana3" />
+      <recent name="C:\Users\ddd\IdeaProjects\SpeedFast\Semana 3" />
+      <recent name="C:\Users\ddd\IdeaProjects\SpeedFast\Semana1" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.25134.95" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.25134.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d7f1ab07-bc21-4318-bb1f-07dc1155f8da" name="Changes" comment="" />
+      <created>1786995546257</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1786995546257</updated>
+      <workItem from="1786995547500" duration="2397000" />
+      <workItem from="1787003714045" duration="147000" />
+      <workItem from="1787003893651" duration="369000" />
+      <workItem from="1787004369046" duration="67000" />
+      <workItem from="1787621929792" duration="3945000" />
+      <workItem from="1787974973229" duration="3828000" />
+    </task>
+    <task id="LOCAL-00001" summary="readme">
+      <option name="closed" value="true" />
+      <created>1786997664930</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1786997664930</updated>
+    </task>
+    <task id="LOCAL-00002" summary="readme">
+      <option name="closed" value="true" />
+      <created>1786997668759</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1786997668759</updated>
+    </task>
+    <task id="LOCAL-00003" summary="readme">
+      <option name="closed" value="true" />
+      <created>1786997726281</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1786997726281</updated>
+    </task>
+    <task id="LOCAL-00004" summary="readme">
+      <option name="closed" value="true" />
+      <created>1786997777081</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1786997777081</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Cambios en Readme">
+      <option name="closed" value="true" />
+      <created>1787004415864</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1787004415864</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Semana 2">
+      <option name="closed" value="true" />
+      <created>1787625746285</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1787625746285</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Semana 2">
+      <option name="closed" value="true" />
+      <created>1787625802994</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1787625802994</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Semana 2 (Retoques)">
+      <option name="closed" value="true" />
+      <created>1787978382025</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1787978382025</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="readme" />
+    <MESSAGE value="Cambios en Readme" />
+    <MESSAGE value="Semana 2" />
+    <MESSAGE value="Semana 2 (Retoques)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Semana 2 (Retoques)" />
+  </component>
+</project>
