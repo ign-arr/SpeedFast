@@ -1,10 +1,12 @@
 
 package model;
 
+// Clase abstracta
 public abstract class Pedido {
-    String idPedido;
-    String direccionEntrega;
-    int distanciaKm;
+
+    private String idPedido;
+    private String direccionEntrega;
+    private int distanciaKm;
 
     public Pedido(String idPedido, String direccionEntrega, int distanciaKm) {
         this.idPedido = idPedido;
@@ -12,22 +14,43 @@ public abstract class Pedido {
         this.distanciaKm = distanciaKm;
     }
 
-    public abstract int calcularTiempoEntrega();
+    public String getIdPedido() {
+        return idPedido;
+    }
+
+    public void setIdPedido(String idPedido) {
+        this.idPedido = idPedido;
+    }
+
+    public String getDireccionEntrega() {
+        return direccionEntrega;
+    }
+
+    public void setDireccionEntrega(String direccionEntrega) {
+        this.direccionEntrega = direccionEntrega;
+    }
+
+    public int getDistanciaKm() {
+        return distanciaKm;
+    }
+
+    public void setDistanciaKm(int distanciaKm) {
+        this.distanciaKm = distanciaKm;
+    }
+
+    public void mostrarResumen() {
+        System.out.println("Dirección: " + direccionEntrega);
+        System.out.println("Distancia: " + distanciaKm + " km");
+    }
 
     public void asignarRepartidor() {
         System.out.println("Asignando repartidor...");
     }
 
-    public void mostrarResumen() {
-        System.out.println("-> Dirección: " + direccionEntrega);
-        System.out.println("-> Distancia: " + distanciaKm + " km");
-        System.out.println("-> Tiempo estimado de entrega: " + calcularTiempoEntrega() + " minutos");
+    public void asignarRepartidor(String nombreRepartidor) {
+        System.out.println("→ Pedido asignado a " + nombreRepartidor);
     }
 
-    public String getIdPedido() { return idPedido; }
-    public void setIdPedido(String id) { this.idPedido = id; }
-    public String getDireccionEntrega() { return direccionEntrega; }
-    public void setDireccionEntrega(String dir) { this.direccionEntrega = dir; }
-    public int getDistanciaKm() { return distanciaKm; }
-    public void setDistanciaKm(int dist) { this.distanciaKm = dist; }
+    // Metodo abstracto
+    public abstract int calcularTiempoEntrega();
 }
