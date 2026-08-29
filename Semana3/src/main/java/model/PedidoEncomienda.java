@@ -9,14 +9,11 @@ public class PedidoEncomienda extends Pedido {
 
     @Override
     public void asignarRepartidor() {
+        setNombreRepartidor("Fernanda Henriquez");
+
         System.out.println("Asignando repartidor...");
         System.out.println("→ Validando peso y embalaje... OK");
-    }
-
-    @Override
-    public void asignarRepartidor(String nombreRepartidor) {
-        System.out.println("→ Pedido asignado a " + nombreRepartidor);
-        System.out.println("→ Dirección de entrega: " + getDireccionEntrega());
+        System.out.println("→ Pedido asignado a " + getNombreRepartidor());
     }
 
     @Override
